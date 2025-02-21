@@ -12,3 +12,5 @@ from .search import DeepSearch, grep
 from .deephash import DeepHash
 from .delta import Delta
 from .path import extract, parse_path
+
+__all__ = ["DeepDiff", "DeepSearch", "grep", "DeepHash", "Delta", "extract", "parse_path"]
